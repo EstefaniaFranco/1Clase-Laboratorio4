@@ -1,0 +1,9 @@
+<label>Ingrese un numero: </label><input type="number" placeholder="Edad Uno" [(ngModel)]="edadUno">
+<br><br>
+<label>Ingrese otro numero: </label><input type="number" placeholder="Edad Dos" [(ngModel)]="edadDos">
+<br>
+<p>Suma = {{suma}}</p>
+<p>Promedio = {{promedio}}</p>
+
+<button (click)="calcular()">Calcular</button>
+<button (click)="limpiar()">Limpiar Cuadros de Texto</button>
